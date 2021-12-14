@@ -23,15 +23,25 @@ export default function Profile() {
                         {" "}
                         <Typical
                         loop={Infinity}
-                        steps={ ["Full Stack Developer", 1000,
-                                "MERN Stack Developer ", 1000,
-                                "Cross Platform Developer", 1000,
-                                "React/React Native ", 1000,  
-                    ]}
-                    />
-                        </h1>
+                        steps={ ["Full Stack Developer", 2000,
+                                "MERN Stack Developer ", 2000,
+                                "Cross Platform Developer", 2000,
+                                "React/React Native ", 2000,  
+                            ]}
+                        />
+                    </h1>
+                    <span className='profile-role-tagline'>
+                    Eager to learn full stack development. 
+                    </span>
                     </span>
                     </div> 
+                    <div className='profile-options'>
+                        <button className='btn primary-btn'>
+                            {" "}
+                            Resume {" "}
+                        </button>
+                      
+                    </div>
                 </div>
             </div>
         </div>
