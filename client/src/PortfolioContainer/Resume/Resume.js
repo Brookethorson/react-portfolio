@@ -72,7 +72,44 @@ export default function Resume(props) {
         {
             title: "CSS Portfolio",
             description: "https://brookethorson.github.io/Brooke-Portfolio/"
-        }
+        },
+    ];
+
+    const resumeDetails = [
+        <div className='resume-screen-container' key='education'>
+            <ResumeHeading
+            heading={"Walden University"}
+            subHeading={"BACHELOR OF SCIENCE, HEALTH SCIENCE-INFORMATICS"}
+            fromDate={"2013"}
+            toDate={"2017"}
+            />
+        </div>,
+        <div className='resume-screen-container' key='work-experince'>
+             <ResumeHeading
+            heading={"Genentech, Inc"}
+            subHeading={"Associate Systems Specialists"}
+            fromDate={"2019"}
+            toDate={"Present"}
+            />
+             <ResumeHeading
+            heading={"Partnership HealthPlan of CA"}
+            subHeading={"Project Coordinator I,"}
+            fromDate={"2019"}
+            toDate={"2019"}
+            />
+             <ResumeHeading
+            heading={"Genentech, Inc-CyberCSI"}
+            subHeading={"Level II Technical Support Analyst"}
+            fromDate={"2019"}
+            toDate={"2019"}
+            />
+             <ResumeHeading
+            heading={"Genentech, Inc"}
+            subHeading={"Associate Systems Specialists Inter"}
+            fromDate={"2018"}
+            toDate={"2019"}
+            />
+        </div>
     ]
 
     let fadeInScreenHandler = (screen) => {
