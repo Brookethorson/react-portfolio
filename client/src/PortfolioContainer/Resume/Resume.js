@@ -39,7 +39,7 @@ export default function Resume(props) {
         {label: "Insterests", logoSrc: "interests.svg"}
     ];
 
-    const programingSkillDetails =[
+    const programmingSkillsDetails =[
         {skill: "HTML"},
         {skill: "CSS"},
         {skill: "React and React Native"},
@@ -109,8 +109,46 @@ export default function Resume(props) {
             fromDate={"2018"}
             toDate={"2019"}
             />
-        </div>
-    ]
+        </div>,
+            <div className='resume-screen-container programmming-skills-container'
+            key="programming-skills"
+            >
+            {programmingSkillsDetails.map((skill, index)=>(
+                <div className='skill-parent' key={index}>
+                    <div className='heading-bullet'></div>
+                    <span>{skill.skill}</span>
+                </div>
+            ))}
+        </div>,
+
+        <div className='resume-screen-container' key='projects'>
+            {projectDetails.map((projectDetails, index)=>(
+                <ResumeHeading
+                key={index}
+                heading={projectDetails.title}
+                subHeading={projectDetails.subHeading}
+                description={projectDetails.description}
+                />
+            ))}
+    </div>,
+
+    <div className='resume-screen-container' key='interests'>
+        <ResumeHeading
+        heading='Project Management'
+        description='Aim to develop into an IT project manager.'
+        />
+        <ResumeHeading
+        heading='Learning'
+        description='Love to learn new skills and hobbies.'
+        />
+        <ResumeHeading
+        heading='Health Sciences'
+        description='Passionate about health sciences, specifically childhood health and well being.'
+        />
+
+    </div>
+        
+]
 
     let fadeInScreenHandler = (screen) => {
         if (screen.fadeInScreen !== props.id) return;
