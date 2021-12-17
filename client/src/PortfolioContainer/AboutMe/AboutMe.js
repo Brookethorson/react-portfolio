@@ -1,19 +1,19 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
-import ScrollService from '../../utilities/ScrollService'
-import Animations from '../../utilities/Animations'
-import './AboutMe.css'
+//import ScrollService from '../../utilities/ScrollService'
+//import Animations from '../../utilities/Animations'
+import "./AboutMe.css"
 
 export default function AboutMe(props){
 
-    let fadeInScreenHandler = (screen)=>{
-        if(screen.fadeScreen !== props.id)
-        return
-        Animations.animations.fadeInScreen(props.id)
-    }
+    // let fadeInScreenHandler = (screen)=>{
+    //     if(screen.fadeScreen !== props.id)
+    //     return
+    //     Animations.animations.fadeInScreen(props.id)
+    // };
 
-    const fadeInSubscription = 
-    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+    // const fadeInSubscription = 
+    // ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
     const SCREEN_CONSTSANTS ={
         description: "Full Stack Boot Camp Graduate with a background in Biotechnology, Information Technology, and Health Sciences. Knowledge of MERN stacks, as well as in depth understanding of troubleshooting. Strong buisness and professional qualities which have led to success. Willingness to learn and lead.",
@@ -41,7 +41,7 @@ export default function AboutMe(props){
 
 
     return(
-        <div className='about-me-container screen-container' id={props.id || ""}>
+        <div className='about-me-container screen-container'  id={props.id || ""}>
             <div className='about-me-parent'>
                 <ScreenHeading title={'About Me'} subHeading={'Additional Details About Me'}/>
                 <div className='about-me-card'>
@@ -59,9 +59,6 @@ export default function AboutMe(props){
                            {""}
                            Contact Me {""}
                        </button>
-                       <a href='Brooke.pdf' download='Resume Brooke.pdf'>
-                           <button className='btn highlighted-btn'>Resume</button>
-                       </a>
                         </div>
                     </div>
                 </div>
