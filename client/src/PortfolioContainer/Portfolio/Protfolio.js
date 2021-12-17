@@ -57,15 +57,9 @@ export default function Portfolio(props){
                                 <div className='project-info'>
                                         <img src="img/Portfolio/WeatherDashboard.png" alt='no internet connection'></img>
                                         <h5>Weather Dashboard</h5>
+                                        <h6>https://brookethorson.github.io/weather-dashboard/ </h6>
                                     </div>
-                                    <div className='port-comment'>
-                                        <p>
-                                            
-                                            https://brookethorson.github.io/weather-dashboard/ 
-                                            https://github.com/Brookethorson/weather-dashboardather Dashboard
-                                        
-                                        </p>
-                                    </div>
+                                     
                                 </div>
                             </div>
                             <div className='col-lg-12'>
@@ -73,12 +67,7 @@ export default function Portfolio(props){
                                 <div className='project-info'>
                                         <img src="img/Portfolio/BrewFinder.png" alt='no internet connection'></img>
                                         <h5>BrewFinder</h5>
-                                    </div>
-                                    <div className='port-comment'>
-                                        <p>
-                                            
-                                            https://asecord92.github.io/brew-finder/
-                                        </p>
+                                        <h6>https://asecord92.github.io/brew-finder/</h6>
                                     </div>
                                 </div>
                             </div>
@@ -87,12 +76,8 @@ export default function Portfolio(props){
                                 <div className='project-info'>
                                     <img src="img/Portfolio/BudgetTracker.png" alt='no internet connection'></img>
                                         <h5>Budget Tracker</h5>
-                                    </div>
-                                    <div className='port-comment'>
-                                        <p> 
-                                            https://github.com/Brookethorson/PWA-budget-tracker 
-                                            https://shielded-hamlet-51470.herokuapp.com/ 
-                                        </p>
+                                        <h6>https://github.com/Brookethorson/PWA-budget-tracker 
+                                            https://shielded-hamlet-51470.herokuapp.com/ </h6>
                                     </div>
                                 </div>
                             </div>
@@ -101,11 +86,7 @@ export default function Portfolio(props){
                                 <div className='project-info'>
                                         <img src="img/Portfolio/CSSPortfolio.png" alt='no internet connection'></img>
                                         <h5>CSSPortfolio</h5>
-                                    </div>
-                                    <div className='port-comment'>
-                                        <p>  
-                                            https://brookethorson.github.io/Brooke-Portfolio/
-                                        </p>
+                                        <h6> https://brookethorson.github.io/Brooke-Portfolio/</h6>
                                     </div>
                                 </div>
                             </div>
@@ -114,11 +95,7 @@ export default function Portfolio(props){
                                 <div className='project-info'>
                                         <img src="img/Portfolio/CulinaryEats.png" alt='no internet connection'></img>
                                         <h5>Culinary Eats</h5>
-                                    </div>
-                                    <div className='port-comment'>
-                                        <p>
-                                            https://culinaryeats.herokuapp.com/
-                                        </p>
+                                        <h6>https://culinaryeats.herokuapp.com/</h6>
                                     </div>
                                 </div>
                             </div>
@@ -127,12 +104,8 @@ export default function Portfolio(props){
                                 <div className='project-info'>
                                         <img src="img/Portfolio/NoteTaker.png" alt='no internet connection'></img>
                                         <h5>Note Taker</h5>
-                                    </div>
-                                    <div className='port-comment'>
-                                        <p>
-                                            https://pure-chamber-94605.herokuapp.com/ 
-                                            https://github.com/Brookethorson/note-taker 
-                                        </p>
+                                        <h6>https://pure-chamber-94605.herokuapp.com/ 
+                                            https://github.com/Brookethorson/note-taker </h6>
                                     </div>
                                 </div>
                             </div>
