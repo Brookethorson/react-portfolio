@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import "./AboutMe.css";
+import "./AboutMe.css"
 
 
 
@@ -22,9 +22,9 @@ export default function AboutMe(props){
                 "JavaScript",
                 "Web, Third-Party, and Server-Side APIs",
                 "MERN stack",
-                "OOP",
+                "OOP, ORM, MVC",
                 "SQL and NoSQL",
-                "ORM,MVC,PWAs",
+                "PWA"
             ],
             heading: "Skills:"
         }
@@ -33,7 +33,7 @@ export default function AboutMe(props){
         return (
             SCREEN_CONSTANTS.highlights.bullets.map((value,i)=>(
                <div className="hightlight" key={i}>
-                   <div className="hlightlight-blog"></div>
+                   <div className="highlight-blob"></div>
                        <span>{value}</span>
                  </div> 
             ))
