@@ -8,14 +8,18 @@
 
 .portfolio-section::before {
   content: "";
+  max-width: 1150px;
   position: absolute;
-  left: 0;
+  left: 383px;
   top: 0;
   width: 100%;
-  height: 80%;
+  height: 90%;
   z-index: -1;
   opacity: 0.85;
+  border-radius: 12px;
+  box-shadow: 0 0px 20px -2px #1f2235;
   background-image: url("../../assests/Home/paint-bg.jpg")
+  
 }
 
 .portfolio-section .port-content{

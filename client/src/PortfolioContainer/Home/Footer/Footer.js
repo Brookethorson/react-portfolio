@@ -1,13 +1,15 @@
 import React from "react";
-import './Footer.css'
+import "./Footer.css";
 
 export default function Footer() {
-    return(
-        <div className="footer-container">
-            <div className="footer-parent">
-                <img src={require ('../../../assests/Home/shape-bg.png').default} alt='no internet connection'/>
-            </div>
-
-        </div>
-    )
+  return (
+    <div className="footer-container">
+      <div className="footer-parent">
+        <img
+          src={require("../../../assests/Home/shape-bg.png").default}
+          alt="no internet connection"
+        />
+      </div>
+    </div>
+  );
 }
