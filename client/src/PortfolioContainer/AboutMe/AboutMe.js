@@ -58,12 +58,6 @@ export default function AboutMe(props) {
               </div>
               {renderHighlight()}
             </div>
-            <div className="about-me-options">
-              <button className="btn primary-btn">
-                {""}
-                Contact Me {""}
-              </button>
-            </div>
           </div>
         </div>
       </div>

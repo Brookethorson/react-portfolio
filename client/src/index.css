@@ -96,29 +96,24 @@ body ::-webkit-scrollbar-thumb {
 }
 
 .primary-btn {
-  color: var(--white);
-  border: 2px solid linen;
-  font-size: 12px;
-  background-color: #1f2235;
+  color: #5aaa95;
+  border: 2px solid;
+  background-color: ghostwhite;
 }
-/* @media only screen and (max-width: 414px) {
-  .primary-btn {
-    font-size: 13px;
-  }
-} */
+
 
 .primary-btn:hover {
-  color: aliceblue;
-  border: 2px solid #ff5823;
-  background-color: #1f2235;
+  color: #5aaa95;;
+  border: 2px solid;
+  background-color: lightgray;
 }
 
 .highlighted-btn {
-  color: var(--white);
-
-  font-size: 12px;
-  background-color: #ff5823;
+  color: #5aaa95;
+  border: 2px solid;
+  background-color: ghostwhite;
 }
+
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
     z-index: -900;

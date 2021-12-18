@@ -19,7 +19,7 @@
 }
 
 .resume-bullets {
-  box-shadow: 15px 0 9px -15px darkslategrey;
+  box-shadow: 15px 0 9px -15px gray;
   height: 100%;
   width: 320px;
 }
@@ -54,7 +54,7 @@
   display: flex;
   align-items: left;
   cursor: pointer;
-  background-color: darkslategrey;
+  background-color: lightgray;
   height: 40px;
   margin: 15px 0;
   padding: 0 8px;
@@ -78,7 +78,7 @@
   width: 34px;
   height: 100%;
   z-index: 1;
-  background-color: darkslategrey;
+  background-color: lightgray;
   position: absolute;
 }
 

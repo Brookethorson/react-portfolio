@@ -2,12 +2,12 @@
   max-width: 1100px;
   padding: 10px;
   display: flex;
-  box-shadow: 0 0px 20px -2px #1f2235;
+  box-shadow: 0 0px 20px -2px gray;
   border-radius: 12px;
   margin: 0 auto;
   flex-direction: column;
   justify-content: center;
-  background-color: slategray;
+  background-color: wheat;
   border-bottom: 0;
 }
 .back-form {
@@ -19,15 +19,14 @@
   margin-bottom: 20px;
 }
 .img-back h4 {
-  color: white;
+  color: #5aaa95;
   letter-spacing: 0.3rem;
-  font-weight: 400;
-  font-size: 18px;
-  opacity: 0.45;
+  font-weight: 600;
+  font-size: 25px;
 }
 .back-form .img-back img {
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.7;
 }
 .central-form form {
   width: auto;
@@ -43,7 +42,7 @@
 form p {
   text-align: center;
   margin-bottom: 10px;
-  color: var(--dark-orage);
+  color: black;
   letter-spacing: 0.4rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -67,22 +66,22 @@ textarea {
 
 textarea:focus {
   border: 2px solid rgba(30, 85, 250, 0.47);
-  background-color: white;
+  background-color: whites;
 }
 input:focus {
   border: 2px solid rgba(30, 85, 250, 0.47);
-  background-color: white;
+  background-color: black;
 }
 form button {
   margin-top: 15px;
   padding: 5px;
   outline: none;
   width: 160px;
-  border: 2px solid var(--dark-orange);
+  border: 2px solid black;
   font-size: 18px;
   border-radius: 19px;
-  background-color: slategray;
-  color: white;
+  background-color: gray;
+  color: black;
   align-items: center;
   justify-content: center;
 }
@@ -90,7 +89,7 @@ form button {
 form button:hover {
   background-color: slategray;
   transition: all ease 1s;
-  border: 2px solid slategray;
+  border: 2px solid black;
 }
 button .load img {
   width: 60px;
