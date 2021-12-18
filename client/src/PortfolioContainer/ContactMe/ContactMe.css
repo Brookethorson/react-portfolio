@@ -8,7 +8,6 @@
   flex-direction: column;
   justify-content: center;
   background-color: wheat;
-  border-bottom: 0;
 }
 .back-form {
   max-width: 380px;
@@ -70,7 +69,7 @@ textarea:focus {
 }
 input:focus {
   border: 2px solid rgba(30, 85, 250, 0.47);
-  background-color: black;
+  background-color: lightgray;
 }
 form button {
   margin-top: 15px;

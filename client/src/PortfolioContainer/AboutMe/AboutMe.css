@@ -12,7 +12,7 @@
 .about-me-card {
   display: flex;
   width: 100%;
-  box-shadow: 0 0px 20px -2px slategray;
+  box-shadow: 0 0px 20px -2px gray;
 }
 .about-me-profile {
   width: 40%;

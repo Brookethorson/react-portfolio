@@ -1,11 +1,14 @@
 import React, { useState } from "react";
+import Typical from "react-typical";
+import axios from "axios";
+import { toast } from "react-toastify";
+
 import imgBack from "../../../src/images/Mail.jpeg";
 import load1 from "../../../src/images/load2.gif";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import axios from "axios";
-import { toast } from "react-toastify";
+import Footer from "../../PortfolioContainer/footer/Footer"
 import "./ContactMe.css";
 
 export default function ContactMe(props) {
@@ -13,6 +16,7 @@ export default function ContactMe(props) {
     if (screen.fadeInScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
   };
+
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
@@ -32,7 +36,6 @@ export default function ContactMe(props) {
     setMessage(e.target.value);
   };
   console.log(name);
-
   const submitForm = async (e) => {
     e.preventDefault();
     try {
@@ -51,6 +54,10 @@ export default function ContactMe(props) {
         setBanner(res.data.msg);
         toast.success(res.data.msg);
         setBool(false);
+
+        setName("");
+        setEmail("");
+        setMessage("");
       }
     } catch (error) {
       console.log(error);
@@ -93,6 +100,7 @@ export default function ContactMe(props) {
           </form>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
