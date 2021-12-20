@@ -7,6 +7,12 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Portfolio.css";
+import WeatherDashboard from '../../../src/img/Portfolio/WeatherDashboard.png';
+import BrewFinder from '../../../src/img/Portfolio/BrewFinder.png';
+import BudgetTracker from '../../../src/img/Portfolio/BudgetTracker.png';
+import CSSPortfolio from '../../../src/img/Portfolio/CSSPortfolio.png';
+import CulinaryEats from '../../../src/img/Portfolio/CulinaryEats.png';
+import NoteTaker from '../../../src/img/Portfolio/NoteTaker.png';
 
 export default function Portfolio(props) {
   let fadeInScreenHandler = (screen) => {
@@ -54,11 +60,12 @@ export default function Portfolio(props) {
                 <div className="port-item">
                   <div className="project-info">
                     <img
-                      src="img/Portfolio/WeatherDashboard.png"
+                      src={WeatherDashboard}
                       alt="no internet connection"
                     ></img>
-                    <h5>Weather Dashboard</h5>
-                    <h6>https://brookethorson.github.io/weather-dashboard/ </h6>
+                    <h5>Weather Dashboard </h5>
+                    <h6> <a href={'https://brookethorson.github.io/weather-dashboard/'}>
+                      Click here to view app.</a></h6>    
                   </div>
                 </div>
               </div>
@@ -66,11 +73,12 @@ export default function Portfolio(props) {
                 <div className="port-item">
                   <div className="project-info">
                     <img
-                      src="img/Portfolio/BrewFinder.png"
+                      src={BrewFinder}
                       alt="no internet connection"
                     ></img>
                     <h5>BrewFinder</h5>
-                    <h6>https://asecord92.github.io/brew-finder/</h6>
+                    <h6> <a href={'https://asecord92.github.io/brew-finder/'}>
+                      Click here to view app.</a></h6>
                   </div>
                 </div>
               </div>
@@ -78,14 +86,12 @@ export default function Portfolio(props) {
                 <div className="port-item">
                   <div className="project-info">
                     <img
-                      src="img/Portfolio/BudgetTracker.png"
+                    src={BudgetTracker}
                       alt="no internet connection"
                     ></img>
                     <h5>Budget Tracker</h5>
-                    <h6>
-                      https://github.com/Brookethorson/PWA-budget-tracker
-                      https://shielded-hamlet-51470.herokuapp.com/{" "}
-                    </h6>
+                    <h6> <a href={'https://shielded-hamlet-51470.herokuapp.com/'}>
+                      Click here to view app.</a></h6>  
                   </div>
                 </div>
               </div>
@@ -93,11 +99,12 @@ export default function Portfolio(props) {
                 <div className="port-item">
                   <div className="project-info">
                     <img
-                      src="img/Portfolio/CSSPortfolio.png"
+                    src={CSSPortfolio}
                       alt="no internet connection"
                     ></img>
                     <h5>CSSPortfolio</h5>
-                    <h6> https://brookethorson.github.io/Brooke-Portfolio/</h6>
+                    <h6> <a href={'https://brookethorson.github.io/Brooke-Portfolio'}>
+                      Click here to view app.</a></h6>  
                   </div>
                 </div>
               </div>
@@ -105,11 +112,12 @@ export default function Portfolio(props) {
                 <div className="port-item">
                   <div className="project-info">
                     <img
-                      src="img/Portfolio/CulinaryEats.png"
+                    src={CulinaryEats}
                       alt="no internet connection"
                     ></img>
                     <h5>Culinary Eats</h5>
-                    <h6>https://culinaryeats.herokuapp.com/</h6>
+                    <h6> <a href={'https://culinaryeats.herokuapp.com/'}>
+                      Click here to view app.</a></h6>  
                   </div>
                 </div>
               </div>
@@ -117,14 +125,12 @@ export default function Portfolio(props) {
                 <div className="port-item">
                   <div className="project-info">
                     <img
-                      src="img/Portfolio/NoteTaker.png"
+                      src={NoteTaker}
                       alt="no internet connection"
                     ></img>
                     <h5>Note Taker</h5>
-                    <h6>
-                      https://pure-chamber-94605.herokuapp.com/
-                      https://github.com/Brookethorson/note-taker{" "}
-                    </h6>
+                    <h6> <a href={'https://pure-chamber-94605.herokuapp.com/'}>
+                      Click here to view app.</a></h6> 
                   </div>
                 </div>
               </div>
