@@ -13,6 +13,7 @@ import BudgetTracker from '../../../src/img/Portfolio/BudgetTracker.png';
 import CSSPortfolio from '../../../src/img/Portfolio/CSSPortfolio.png';
 import CulinaryEats from '../../../src/img/Portfolio/CulinaryEats.png';
 import NoteTaker from '../../../src/img/Portfolio/NoteTaker.png';
+import Artforyourheart from '../../../src/img/Portfolio/Artforyourheart.png'
 
 export default function Portfolio(props) {
   let fadeInScreenHandler = (screen) => {
@@ -130,6 +131,19 @@ export default function Portfolio(props) {
                     ></img>
                     <h5>Note Taker</h5>
                     <h6> <a href={'https://pure-chamber-94605.herokuapp.com/'}>
+                      Click here to view app.</a></h6> 
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="port-item">
+                  <div className="project-info">
+                    <img
+                      src={Artforyourheart}
+                      alt="no internet connection"
+                    ></img>
+                    <h5>Art For Your Heart</h5>
+                    <h6> <a href={'https://final-project-drb.herokuapp.com/'}>
                       Click here to view app.</a></h6> 
                   </div>
                 </div>
